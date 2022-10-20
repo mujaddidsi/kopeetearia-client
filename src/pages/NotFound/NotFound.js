@@ -15,7 +15,7 @@ function NotFound() {
 					<Col xs={6}>
 						<Card align='center'>
 							<Card.Img variant='top' src='notfound.jpg' />
-							<Link to={'/'}>
+							<Link to={'/koopetaria-app/'}>
 								<Button variant='primary'>Back To Home</Button>
 							</Link>
 						</Card>
