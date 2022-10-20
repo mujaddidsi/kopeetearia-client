@@ -13,7 +13,7 @@ function App() {
 			<BrowserRouter>
 				<Navigation />
 				<Routes>
-					<Route path='/' element={<LandingPage />} />
+					<Route path='/koopetaria-app/' element={<LandingPage />} />
 					<Route path='*' element={<NotFound to='/notfound' replace />} />
 				</Routes>
 				<Footer />
